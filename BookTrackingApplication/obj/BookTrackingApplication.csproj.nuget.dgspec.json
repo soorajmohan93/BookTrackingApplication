@@ -14,7 +14,7 @@
         "outputPath": "/Users/soorajmohan/Documents/GitHub/BookTrackingApplication/BookTrackingApplication/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/soorajmohan/.config/NuGet/NuGet.Config"
+          "/Users/soorajmohan/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -42,6 +42,10 @@
               "target": "Package",
               "version": "[5.0.13, )"
             },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[5.0.13, )"
@@ -51,6 +55,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.13, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             }
           },
           "imports": [

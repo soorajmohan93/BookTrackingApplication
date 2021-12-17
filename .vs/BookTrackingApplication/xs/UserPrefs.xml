@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{FF507BB9-91E8-4A2E-AB73-31490627BDF8}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="BookTrackingApplication/Migrations/20211217024757_InitialMigration.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BookTrackingApplication/Pages/Admin/Categories/Create.cshtml.cs">
     <Files>
       <File FileName="BookTrackingApplication/Models/Book.cs" Line="19" Column="49" />
       <File FileName="BookTrackingApplication/Models/Category.cs" />
@@ -9,6 +9,10 @@
       <File FileName="BookTrackingApplication/appsettings.json" />
       <File FileName="BookTrackingApplication/Startup.cs" />
       <File FileName="BookTrackingApplication/Migrations/20211217024757_InitialMigration.cs" Line="1" Column="1" />
+      <File FileName="BookTrackingApplication/Pages/Admin/CategoryType/Create.cshtml" Line="38" Column="67" />
+      <File FileName="BookTrackingApplication/Pages/Admin/CategoryTypes/Create.cshtml.cs" Line="29" Column="1" />
+      <File FileName="BookTrackingApplication/Pages/Admin/Categories/Create.cshtml" Line="1" Column="1" />
+      <File FileName="BookTrackingApplication/Pages/Admin/Categories/Create.cshtml.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,7 +22,17 @@
               <Node name="Dependencies" expanded="True" />
               <Node name="Data" expanded="True" />
               <Node name="Migrations" expanded="True">
-                <Node name="20211217024757_InitialMigration.cs" expanded="True" selected="True" />
+                <Node name="20211217024757_InitialMigration.cs" expanded="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Admin" expanded="True">
+                  <Node name="Categories" expanded="True">
+                    <Node name="Create.cshtml" expanded="True">
+                      <Node name="Create.cshtml.cs" selected="True" />
+                    </Node>
+                  </Node>
+                </Node>
               </Node>
               <Node name="appsettings.json" expanded="True" />
             </Node>
