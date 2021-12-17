@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using BookTrackingApplication.Data;
 using BookTrackingApplication.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace BookTrackingApplication.Pages.Admin.Books
 {
@@ -21,10 +22,25 @@ namespace BookTrackingApplication.Pages.Admin.Books
 
         public IList<Book> Book { get;set; }
 
+        public SelectList Title { get; set; }
+        [BindProperty(SupportsGet = true)]
+        public string BooksTitle { get; set; }
+
         public async Task OnGetAsync()
         {
-            Book = await _context.Books
-                .Include(b => b.Categories).ToListAsync();
+            IQueryable<string> nameQuery = from b in _context.Books
+                                           orderby b.Title
+                                           select b.Title;
+
+            var books = from b in _context.Books
+                           select b;
+
+            if (!string.IsNullOrEmpty(BooksTitle))
+            {
+                books = books.Where(x => x.Title == BooksTitle);
+            }
+            Title = new SelectList(await nameQuery.Distinct().ToListAsync());
+            Book = await books.Include(b => b.Categories).ToListAsync();
         }
     }
 }

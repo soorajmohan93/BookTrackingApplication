@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using BookTrackingApplication.Data;
 using BookTrackingApplication.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace BookTrackingApplication.Pages.Admin.CategoryTypes
 {
@@ -21,9 +22,25 @@ namespace BookTrackingApplication.Pages.Admin.CategoryTypes
 
         public IList<CategoryType> CategoryType { get;set; }
 
+        public SelectList Names { get; set; }
+        [BindProperty(SupportsGet = true)]
+        public string CategoriesNames { get; set; }
+
         public async Task OnGetAsync()
         {
-            CategoryType = await _context.CategoryTypes.ToListAsync();
+            IQueryable<string> nameQuery = from c in _context.CategoryTypes
+                                            orderby c.Name
+                                            select c.Name;
+
+            var types = from c in _context.CategoryTypes
+                         select c;
+
+            if (!string.IsNullOrEmpty(CategoriesNames))
+            {
+                types = types.Where(x => x.Name == CategoriesNames);
+            }
+            Names = new SelectList(await nameQuery.Distinct().ToListAsync());
+            CategoryType = await types.ToListAsync();
         }
     }
 }

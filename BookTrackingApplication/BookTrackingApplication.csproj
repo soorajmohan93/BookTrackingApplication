@@ -14,7 +14,6 @@
     <None Remove="Pages\Admin\Book\" />
     <None Remove="Microsoft.VisualStudio.Web.CodeGeneration.Design" />
     <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
-    <None Remove="Pages\Admin\Category\" />
     <None Remove="Pages\Admin\CategoryTypes\" />
   </ItemGroup>
   <ItemGroup>
@@ -22,7 +21,6 @@
     <Folder Include="Data\" />
     <Folder Include="Pages\Admin\" />
     <Folder Include="Pages\Admin\Books\" />
-    <Folder Include="Pages\Admin\Category\" />
     <Folder Include="Pages\Admin\CategoryTypes\" />
   </ItemGroup>
   <ItemGroup>

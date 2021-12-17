@@ -1,18 +1,25 @@
 ﻿<Properties StartupConfiguration="{FF507BB9-91E8-4A2E-AB73-31490627BDF8}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="BookTrackingApplication/Pages/Admin/Categories/Create.cshtml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BookTrackingApplication/Pages/Index.cshtml">
     <Files>
       <File FileName="BookTrackingApplication/Models/Book.cs" Line="19" Column="49" />
-      <File FileName="BookTrackingApplication/Models/Category.cs" />
+      <File FileName="BookTrackingApplication/Models/Category.cs" Line="1" Column="1" />
       <File FileName="BookTrackingApplication/Models/CategoryType.cs" />
       <File FileName="BookTrackingApplication/Data/BookTrackingApplicationContext.cs" />
       <File FileName="BookTrackingApplication/appsettings.Development.json" />
       <File FileName="BookTrackingApplication/appsettings.json" />
       <File FileName="BookTrackingApplication/Startup.cs" />
-      <File FileName="BookTrackingApplication/Migrations/20211217024757_InitialMigration.cs" Line="1" Column="1" />
-      <File FileName="BookTrackingApplication/Pages/Admin/CategoryType/Create.cshtml" Line="38" Column="67" />
-      <File FileName="BookTrackingApplication/Pages/Admin/CategoryTypes/Create.cshtml.cs" Line="29" Column="1" />
-      <File FileName="BookTrackingApplication/Pages/Admin/Categories/Create.cshtml" Line="1" Column="1" />
-      <File FileName="BookTrackingApplication/Pages/Admin/Categories/Create.cshtml.cs" Line="1" Column="1" />
+      <File FileName="BookTrackingApplication/Migrations/20211217024757_InitialMigration.cs" />
+      <File FileName="BookTrackingApplication/Pages/Admin/CategoryTypes/Create.cshtml.cs" />
+      <File FileName="BookTrackingApplication/Pages/Admin/Categories/Create.cshtml" />
+      <File FileName="BookTrackingApplication/Pages/Admin/Categories/Create.cshtml.cs" />
+      <File FileName="BookTrackingApplication/Pages/Admin/Categories/Index.cshtml.cs" Line="25" Column="9" />
+      <File FileName="BookTrackingApplication/Pages/Admin/Categories/Index.cshtml" Line="14" Column="1" />
+      <File FileName="BookTrackingApplication/Pages/Admin/CategoryTypes/Index.cshtml.cs" Line="25" Column="9" />
+      <File FileName="BookTrackingApplication/Pages/Admin/CategoryTypes/Index.cshtml" Line="14" Column="1" />
+      <File FileName="BookTrackingApplication/Pages/Admin/Books/Index.cshtml.cs" Line="44" Column="10" />
+      <File FileName="BookTrackingApplication/Pages/Admin/Books/Index.cshtml" Line="16" Column="60" />
+      <File FileName="BookTrackingApplication/Pages/Shared/_Layout.cshtml" Line="6" Column="49" />
+      <File FileName="BookTrackingApplication/Pages/Index.cshtml" Line="9" Column="96" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -26,13 +33,8 @@
               </Node>
               <Node name="Models" expanded="True" />
               <Node name="Pages" expanded="True">
-                <Node name="Admin" expanded="True">
-                  <Node name="Categories" expanded="True">
-                    <Node name="Create.cshtml" expanded="True">
-                      <Node name="Create.cshtml.cs" selected="True" />
-                    </Node>
-                  </Node>
-                </Node>
+                <Node name="Shared" expanded="True" />
+                <Node name="Index.cshtml" selected="True" />
               </Node>
               <Node name="appsettings.json" expanded="True" />
             </Node>
