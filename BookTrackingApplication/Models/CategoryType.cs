@@ -9,6 +9,7 @@ namespace BookTrackingApplication.Models
         [Key]
         public String Type { get; set; }
 
+        [Required]
         public String Name { get; set; }
 
         public ICollection<Category> Categories { get; set; }

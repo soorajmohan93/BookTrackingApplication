@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{FF507BB9-91E8-4A2E-AB73-31490627BDF8}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="BookTrackingApplication/Pages/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BookTrackingApplication/Pages/Admin/Books/Details.cshtml">
     <Files>
-      <File FileName="BookTrackingApplication/Models/Book.cs" Line="19" Column="49" />
-      <File FileName="BookTrackingApplication/Models/Category.cs" Line="1" Column="1" />
+      <File FileName="BookTrackingApplication/Models/Book.cs" Line="17" Column="35" />
+      <File FileName="BookTrackingApplication/Models/Category.cs" />
       <File FileName="BookTrackingApplication/Models/CategoryType.cs" />
       <File FileName="BookTrackingApplication/Data/BookTrackingApplicationContext.cs" />
       <File FileName="BookTrackingApplication/appsettings.Development.json" />
@@ -12,14 +12,24 @@
       <File FileName="BookTrackingApplication/Pages/Admin/CategoryTypes/Create.cshtml.cs" />
       <File FileName="BookTrackingApplication/Pages/Admin/Categories/Create.cshtml" />
       <File FileName="BookTrackingApplication/Pages/Admin/Categories/Create.cshtml.cs" />
-      <File FileName="BookTrackingApplication/Pages/Admin/Categories/Index.cshtml.cs" Line="25" Column="9" />
-      <File FileName="BookTrackingApplication/Pages/Admin/Categories/Index.cshtml" Line="14" Column="1" />
-      <File FileName="BookTrackingApplication/Pages/Admin/CategoryTypes/Index.cshtml.cs" Line="25" Column="9" />
-      <File FileName="BookTrackingApplication/Pages/Admin/CategoryTypes/Index.cshtml" Line="14" Column="1" />
-      <File FileName="BookTrackingApplication/Pages/Admin/Books/Index.cshtml.cs" Line="44" Column="10" />
-      <File FileName="BookTrackingApplication/Pages/Admin/Books/Index.cshtml" Line="16" Column="60" />
-      <File FileName="BookTrackingApplication/Pages/Shared/_Layout.cshtml" Line="6" Column="49" />
-      <File FileName="BookTrackingApplication/Pages/Index.cshtml" Line="9" Column="96" />
+      <File FileName="BookTrackingApplication/Pages/Admin/Categories/Index.cshtml.cs" />
+      <File FileName="BookTrackingApplication/Pages/Admin/Categories/Index.cshtml" />
+      <File FileName="BookTrackingApplication/Pages/Admin/CategoryTypes/Index.cshtml.cs" />
+      <File FileName="BookTrackingApplication/Pages/Admin/CategoryTypes/Index.cshtml" />
+      <File FileName="BookTrackingApplication/Pages/Admin/Books/Index.cshtml.cs" />
+      <File FileName="BookTrackingApplication/Pages/Admin/Books/Index.cshtml" />
+      <File FileName="BookTrackingApplication/Pages/Shared/_Layout.cshtml" />
+      <File FileName="BookTrackingApplication/Pages/Index.cshtml" />
+      <File FileName="BookTrackingApplication/Migrations/20211217190858_AddedAttributes.cs" />
+      <File FileName="BookTrackingApplication/Migrations/20211217191100_UpdatedAttributes.cs" />
+      <File FileName="BookTrackingApplication/Program.cs" />
+      <File FileName="BookTrackingApplication/Pages/Admin/Books/Details.cshtml" Line="52" Column="5" />
+      <File FileName="BookTrackingApplication/Pages/BookDetails.cshtml" />
+      <File FileName="BookTrackingApplication/Pages/BookDetails.cshtml.cs" />
+      <File FileName="BookTrackingApplication/Pages/Shared/_ValidationScriptsPartial.cshtml" />
+      <File FileName="BookTrackingApplication/Pages/_ViewImports.cshtml" />
+      <File FileName="BookTrackingApplication/Pages/_ViewStart.cshtml" />
+      <File FileName="BookTrackingApplication/Pages/Admin/Books/Details.cshtml.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -33,8 +43,12 @@
               </Node>
               <Node name="Models" expanded="True" />
               <Node name="Pages" expanded="True">
+                <Node name="Admin" expanded="True">
+                  <Node name="Books" expanded="True">
+                    <Node name="Details.cshtml" expanded="True" selected="True" />
+                  </Node>
+                </Node>
                 <Node name="Shared" expanded="True" />
-                <Node name="Index.cshtml" selected="True" />
               </Node>
               <Node name="appsettings.json" expanded="True" />
             </Node>
@@ -44,7 +58,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.BookTrackingApplication PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.BookTrackingApplication PreferredExecutionTarget="/Applications/Brave Browser.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

@@ -2,14 +2,16 @@
 using BookTrackingApplication.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace BookTrackingApplication.Migrations
 {
     [DbContext(typeof(BookTrackingApplicationContext))]
-    partial class BookTrackingApplicationContextModelSnapshot : ModelSnapshot
+    [Migration("20211217190858_AddedAttributes")]
+    partial class AddedAttributes
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -27,7 +29,6 @@ namespace BookTrackingApplication.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Title")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.HasKey("ISBN");
@@ -43,7 +44,6 @@ namespace BookTrackingApplication.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Description")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Type")

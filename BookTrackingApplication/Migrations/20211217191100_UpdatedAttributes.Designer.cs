@@ -2,14 +2,16 @@
 using BookTrackingApplication.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace BookTrackingApplication.Migrations
 {
     [DbContext(typeof(BookTrackingApplicationContext))]
-    partial class BookTrackingApplicationContextModelSnapshot : ModelSnapshot
+    [Migration("20211217191100_UpdatedAttributes")]
+    partial class UpdatedAttributes
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

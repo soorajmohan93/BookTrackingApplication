@@ -1,9 +1,10 @@
 @page
+@using Microsoft.AspNetCore.Http.Extensions
 @model BookTrackingApplication.Pages.Admin.Books.DetailsModel
 
-@{
-    ViewData["Title"] = "Details";
-}
+@{ ViewData["Title"] = "Details"; }
+
+
 
 <h1>Details</h1>
 
@@ -35,3 +36,18 @@
     <a asp-page="./Edit" asp-route-id="@Model.Book.ISBN">Edit</a> |
     <a asp-page="./Index">Back to List</a>
 </div>
+
+
+@section Schema
+{
+    <script type="application/ld+json">
+        {
+            "@@context": "http://schema.org",
+            "@@type": "Book",
+            "isbn": "@Model.Book.ISBN",
+            "name": "@Model.Book.Title",
+            "author": "@Model.Book.Author",
+            "url": "@HttpContext.Request.GetDisplayUrl()"
+        }
+    </script>
+}

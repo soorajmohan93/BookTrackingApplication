@@ -9,6 +9,7 @@ namespace BookTrackingApplication.Models
         [Key]
         public String ISBN { get; set; }
 
+        [Required]
         public String Title { get; set; }
 
         public String Author { get; set; }

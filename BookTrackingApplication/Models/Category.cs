@@ -10,6 +10,7 @@ namespace BookTrackingApplication.Models
         [Key]
         public String NameToken { get; set; }
 
+        [Required]
         public String Description { get; set; }
 
         [ForeignKey("CategoryTypes")]
