@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{FF507BB9-91E8-4A2E-AB73-31490627BDF8}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="BookTrackingApplication/Pages/Admin/Books/Details.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BookTrackingApplication/Models/Book.cs">
     <Files>
       <File FileName="BookTrackingApplication/Models/Book.cs" Line="17" Column="35" />
       <File FileName="BookTrackingApplication/Models/Category.cs" />
@@ -13,7 +13,7 @@
       <File FileName="BookTrackingApplication/Pages/Admin/Categories/Create.cshtml" />
       <File FileName="BookTrackingApplication/Pages/Admin/Categories/Create.cshtml.cs" />
       <File FileName="BookTrackingApplication/Pages/Admin/Categories/Index.cshtml.cs" />
-      <File FileName="BookTrackingApplication/Pages/Admin/Categories/Index.cshtml" />
+      <File FileName="BookTrackingApplication/Pages/Admin/Categories/Index.cshtml" Line="1" Column="1" />
       <File FileName="BookTrackingApplication/Pages/Admin/CategoryTypes/Index.cshtml.cs" />
       <File FileName="BookTrackingApplication/Pages/Admin/CategoryTypes/Index.cshtml" />
       <File FileName="BookTrackingApplication/Pages/Admin/Books/Index.cshtml.cs" />
@@ -23,13 +23,29 @@
       <File FileName="BookTrackingApplication/Migrations/20211217190858_AddedAttributes.cs" />
       <File FileName="BookTrackingApplication/Migrations/20211217191100_UpdatedAttributes.cs" />
       <File FileName="BookTrackingApplication/Program.cs" />
-      <File FileName="BookTrackingApplication/Pages/Admin/Books/Details.cshtml" Line="52" Column="5" />
-      <File FileName="BookTrackingApplication/Pages/BookDetails.cshtml" />
-      <File FileName="BookTrackingApplication/Pages/BookDetails.cshtml.cs" />
+      <File FileName="BookTrackingApplication/Pages/Admin/Books/Details.cshtml" />
       <File FileName="BookTrackingApplication/Pages/Shared/_ValidationScriptsPartial.cshtml" />
       <File FileName="BookTrackingApplication/Pages/_ViewImports.cshtml" />
       <File FileName="BookTrackingApplication/Pages/_ViewStart.cshtml" />
       <File FileName="BookTrackingApplication/Pages/Admin/Books/Details.cshtml.cs" />
+      <File FileName="BookTrackingApplication/Pages/Admin/Books/Create.cshtml.cs" />
+      <File FileName="BookTrackingApplication/Pages/Admin/Books/Create.cshtml" />
+      <File FileName="BookTrackingApplication/Pages/Admin/CategoryTypes/Create.cshtml" />
+      <File FileName="BookTrackingApplication/Pages/Admin/CategoryTypes/Delete.cshtml" />
+      <File FileName="BookTrackingApplication/Pages/Admin/CategoryTypes/Details.cshtml" />
+      <File FileName="BookTrackingApplication/Pages/Admin/CategoryTypes/Edit.cshtml" />
+      <File FileName="BookTrackingApplication/Pages/Admin/Categories/Delete.cshtml" />
+      <File FileName="BookTrackingApplication/Pages/Admin/Categories/Details.cshtml" />
+      <File FileName="BookTrackingApplication/Pages/Admin/Categories/Edit.cshtml" />
+      <File FileName="BookTrackingApplication/Pages/Admin/Books/Delete.cshtml" />
+      <File FileName="BookTrackingApplication/Pages/Admin/Books/Edit.cshtml" />
+      <File FileName="BookTrackingApplication/Pages/Admin/Books/Delete.cshtml.cs" />
+      <File FileName="BookTrackingApplication/Pages/Admin/Books/Edit.cshtml.cs" />
+      <File FileName="BookTrackingApplication/Pages/Admin/Categories/Delete.cshtml.cs" />
+      <File FileName="BookTrackingApplication/Pages/Admin/Categories/Details.cshtml.cs" />
+      <File FileName="BookTrackingApplication/Pages/Admin/Categories/Edit.cshtml.cs" />
+      <File FileName="BookTrackingApplication/Pages/Index.cshtml.cs" />
+      <File FileName="BookTrackingApplication/wwwroot/css/main.css" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -41,14 +57,14 @@
               <Node name="Migrations" expanded="True">
                 <Node name="20211217024757_InitialMigration.cs" expanded="True" />
               </Node>
-              <Node name="Models" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Book.cs" selected="True" />
+              </Node>
               <Node name="Pages" expanded="True">
                 <Node name="Admin" expanded="True">
-                  <Node name="Books" expanded="True">
-                    <Node name="Details.cshtml" expanded="True" selected="True" />
-                  </Node>
+                  <Node name="Books" expanded="True" />
+                  <Node name="Categories" expanded="True" />
                 </Node>
-                <Node name="Shared" expanded="True" />
               </Node>
               <Node name="appsettings.json" expanded="True" />
             </Node>

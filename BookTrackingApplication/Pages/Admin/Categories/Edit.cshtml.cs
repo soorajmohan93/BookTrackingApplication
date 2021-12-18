@@ -37,7 +37,7 @@ namespace BookTrackingApplication.Pages.Admin.Categories
             {
                 return NotFound();
             }
-           ViewData["Type"] = new SelectList(_context.CategoryTypes, "Type", "Type");
+           ViewData["Type"] = new SelectList(_context.CategoryTypes, "Type", "Name");
             return Page();
         }
 

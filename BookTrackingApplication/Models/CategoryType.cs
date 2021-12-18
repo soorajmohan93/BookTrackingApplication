@@ -10,6 +10,7 @@ namespace BookTrackingApplication.Models
         public String Type { get; set; }
 
         [Required]
+        [Display(Name = "Category Type Name", Description = "Name of Category Type")]
         public String Name { get; set; }
 
         public ICollection<Category> Categories { get; set; }

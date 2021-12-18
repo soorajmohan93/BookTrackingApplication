@@ -2,13 +2,13 @@
 @model BookTrackingApplication.Pages.Admin.Categories.IndexModel
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Categories";
 }
 
 <h1>Index</h1>
 
 <p>
-    <a asp-page="Create">Create New</a>
+    <a asp-page="Create">Create New Category</a>
 </p>
 
 <form>
@@ -39,7 +39,7 @@
                 @Html.DisplayFor(modelItem => item.Description)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.CategoryTypes.Type)
+                @Html.DisplayFor(modelItem => item.CategoryTypes.Name)
             </td>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.NameToken">Edit</a> |

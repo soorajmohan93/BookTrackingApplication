@@ -179,4 +179,3 @@
 /Users/soorajmohan/Documents/GitHub/BookTrackingApplication/BookTrackingApplication/obj/Debug/net5.0/Razor/Pages/Admin/Books/Details.cshtml.g.cs
 /Users/soorajmohan/Documents/GitHub/BookTrackingApplication/BookTrackingApplication/obj/Debug/net5.0/Razor/Pages/Admin/Books/Edit.cshtml.g.cs
 /Users/soorajmohan/Documents/GitHub/BookTrackingApplication/BookTrackingApplication/obj/Debug/net5.0/Razor/Pages/Admin/Books/Index.cshtml.g.cs
-/Users/soorajmohan/Documents/GitHub/BookTrackingApplication/BookTrackingApplication/obj/Debug/net5.0/Razor/Pages/BookDetails.cshtml.g.cs
