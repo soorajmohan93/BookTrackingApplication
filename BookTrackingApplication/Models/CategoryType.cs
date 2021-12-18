@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
+//Model fpr Category Type
 namespace BookTrackingApplication.Models
 {
     public class CategoryType

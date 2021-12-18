@@ -2,6 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
+//Model For Book
 namespace BookTrackingApplication.Models
 {
     public class Book

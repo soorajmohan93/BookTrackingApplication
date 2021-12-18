@@ -14,7 +14,7 @@
         "outputPath": "/Users/soorajmohan/Documents/GitHub/BookTrackingApplication/BookTrackingApplication/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/soorajmohan/.config/NuGet/NuGet.Config"
+          "/Users/soorajmohan/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"

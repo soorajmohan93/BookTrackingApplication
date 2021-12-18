@@ -28,6 +28,7 @@ namespace BookTrackingApplication.Pages.Admin.Books
 
         public async Task OnGetAsync()
         {
+//Logic for select tag helper
             IQueryable<string> nameQuery = from b in _context.Books
                                            orderby b.Title
                                            select b.Title;

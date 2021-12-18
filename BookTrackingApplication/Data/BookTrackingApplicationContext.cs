@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using BookTrackingApplication.Models;
 
+//Database Context Class for Book Tracking
 namespace BookTrackingApplication.Data
 {
     public class BookTrackingApplicationContext : DbContext
